@@ -1,0 +1,278 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header{
+    color: #070F18;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#menu{
+    text-align: right;
+    margin-top: 105px;
+}
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    color: #070F18;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+#a{
+    color: black;
+}
+
+#bttcta{
+    border-radius: 50px;
+    background: #1F7CFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+}
+
+#headercta p{
+    color: #575455;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+}
+
+#services1{
+    text-align: center;
+}
+
+#headercta h1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#headerimg{
+    margin-left: 42px;
+
+}
+
+#img1:hover{
+    transform:translateY(-7px);
+    transition-duration:1s;
+    box-shadow: 0px 15px 20px rgb(65, 65, 65);
+}
+
+#imgform:hover{
+    transform:translateY(-7px);
+    transition-duration:1s;
+    box-shadow: 0px 15px 20px rgb(65, 65, 65);
+}
+
+
+
+#headerimg img{
+    width: 100%;
+
+}
+#img1{
+   border-radius: 50px;
+}
+
+
+#headerlogo{
+    text-align: right;
+    margin-left: 200px;
+}
+
+#clients{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+h2.red{
+    color: #F75C4E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h1.black{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+}
+#services1{
+    margin-top: 100px;
+}
+#serviços{
+    margin-top: 130px;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+#services1 .textcenter h3{
+    color: #070F18;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#services1 .textcenter p{
+    color: #575455;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+#imgform{
+    border-radius: 20px;
+}
+
+#contactimg img{
+    width: 100%;
+}
+
+#contactform{
+    margin-left: 75px;
+}
+
+#contact{
+    margin-top: 100px;
+}
+
+#textform{
+    color: #575455;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+#contactform input{
+    border-radius: 50px;
+    background: #cbcbcb;
+    color: #575455;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+    width: 70%;
+    padding: 15px 25px 15px 25px;
+    margin-left: 50px;
+    margin-top: 30px;
+    cursor: auto;
+}
+#contactform button{
+        padding: 0.8em 1.8em;
+        border: 2px solid #1F7CFF;;
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+        background-color: transparent;
+        text-align:;
+        margin-top: 20px;
+        margin-left: 180px ;
+        text-transform: uppercase;
+        font-size: 16px;
+        transition: .3s;
+        z-index: 1;
+        font-family: Poppins;
+        color: #000000;
+       }
+       
+       button::before {
+        content: '';
+        width: 0;
+        height: 300%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        color: white;
+        background:  #1F7CFF;;
+        transition: .5s ease;
+        display: block;
+        z-index: -1;
+        
+       }
+       
+       button:hover::before {
+        width: 105%;
+       }
+       
+       button:hover {
+        color: #111;
+       
+       
+    cursor: pointer;
+       }
+
+
+#porttitle{
+    margin-top: 150px;
+
+}
+
+.portimg img{
+    width: 100%;
+}
+
+.portimg{
+    padding: 20px;
+}
